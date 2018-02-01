@@ -18,7 +18,7 @@ public class MouseClicked : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         if (Input.GetMouseButtonDown(0))
@@ -39,12 +39,10 @@ public class MouseClicked : MonoBehaviour
                     //}
                 }
                 if (sss.transform.parent.name == ground.name)
-                {
-                    // the object identified by hit.transform was clicked
-                    // do whatever you want 
+                { 
                     Debug.Log("I was hit");
                     Vector3 rotate1 = new Vector3(ground.transform.eulerAngles.x, ground.transform.eulerAngles.y, 2);
-                    ground.transform.Rotate(rotate1);
+                    ground.transform.Rotate(rotate1);  
 
                 }
             }
