@@ -339,6 +339,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 327877280}
   ground: {fileID: 855266290}
+  plane: {fileID: 0}
+  west: {fileID: 0}
+  east: {fileID: 0}
+  north: {fileID: 0}
+  south: {fileID: 0}
 --- !u!1 &571105479
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,6 +570,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 571105479}
   ground: {fileID: 855266290}
+  plane: {fileID: 999857871}
+  west: {fileID: 91778457}
+  east: {fileID: 1531809554}
+  north: {fileID: 718882292}
+  south: {fileID: 1056301933}
 --- !u!65 &855266293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -706,6 +716,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 866477131}
   ground: {fileID: 855266290}
+  plane: {fileID: 0}
+  west: {fileID: 0}
+  east: {fileID: 0}
+  north: {fileID: 0}
+  south: {fileID: 0}
 --- !u!1 &999857871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,3 +1191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 1977802856}
   ground: {fileID: 855266290}
+  plane: {fileID: 0}
+  west: {fileID: 0}
+  east: {fileID: 0}
+  north: {fileID: 0}
+  south: {fileID: 0}
