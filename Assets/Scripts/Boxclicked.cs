@@ -22,21 +22,11 @@ public class Boxclicked : MonoBehaviour
             {
                 if (hit.transform.parent.name == ground.name)
                 {
-                    // the object identified by hit.transform was clicked
-                    // do whatever you want
-                    Debug.Log("I was hit");
-                    Vector3 rotate1 = new Vector3(ground.transform.eulerAngles.x, 5, 2);
+                    Vector3 rotate1 = new Vector3(ground.transform.eulerAngles.x, ground.transform.eulerAngles.y, 2);
                     ground.transform.Rotate(rotate1);
                     
                 }
-                    //{
-                   // ground.transform.position = new Vector3(ground.transform.eulerAngles.x, 44, ground.transform.eulerAngles.z);
-                    //    Debug.Log(orobject.transform.position);
-                    //}
-                    //else
-                    //{
-                    //  Debug.Log("Nothing");
-                    //}
+                  
                 }
             }
         }

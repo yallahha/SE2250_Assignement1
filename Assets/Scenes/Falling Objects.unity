@@ -339,11 +339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 327877280}
   ground: {fileID: 855266290}
-  plane: {fileID: 0}
-  west: {fileID: 0}
-  east: {fileID: 0}
-  north: {fileID: 0}
-  south: {fileID: 0}
 --- !u!1 &571105479
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,16 +560,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 855266290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0204b04d5deabb6478a7a05bf6d4959d, type: 3}
+  m_Script: {fileID: 11500000, guid: 77c4823496b23fb4ba687002179b6c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orobject: {fileID: 571105479}
   ground: {fileID: 855266290}
-  plane: {fileID: 999857871}
-  west: {fileID: 91778457}
-  east: {fileID: 1531809554}
-  north: {fileID: 718882292}
-  south: {fileID: 1056301933}
 --- !u!65 &855266293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -716,11 +705,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 866477131}
   ground: {fileID: 855266290}
-  plane: {fileID: 0}
-  west: {fileID: 0}
-  east: {fileID: 0}
-  north: {fileID: 0}
-  south: {fileID: 0}
 --- !u!1 &999857871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,8 +1175,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orobject: {fileID: 1977802856}
   ground: {fileID: 855266290}
-  plane: {fileID: 0}
-  west: {fileID: 0}
-  east: {fileID: 0}
-  north: {fileID: 0}
-  south: {fileID: 0}

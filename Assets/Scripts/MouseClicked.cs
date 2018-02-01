@@ -6,7 +6,7 @@ public class MouseClicked : MonoBehaviour
 {
     Vector3 orposition;
     public GameObject orobject;
-    public GameObject ground;
+    
    // public GameObject newobject;
 
 
@@ -38,13 +38,7 @@ public class MouseClicked : MonoBehaviour
                     //  Debug.Log("Nothing");
                     //}
                 }
-                if (sss.transform.parent.name == ground.name)
-                { 
-                    Debug.Log("I was hit");
-                    Vector3 rotate1 = new Vector3(ground.transform.eulerAngles.x, ground.transform.eulerAngles.y, 2);
-                    ground.transform.Rotate(rotate1);  
-
-                }
+               
             }
         }
     }
